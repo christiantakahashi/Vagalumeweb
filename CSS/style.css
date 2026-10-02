@@ -1,0 +1,45 @@
+body{
+  margin: 0;
+  padding: 24px;
+  background-color: black;
+  font-family: Arial, sans-serif, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+h1{color: yellow;}
+
+.card{
+  background-color:darkgray;
+  border-radius: 16px;
+  padding: 24px 48px;
+  text-align: center;
+  width: 560px;
+  max-width: 560px;
+  box-sizing: border-box;
+}
+
+.card img{
+  height:  380px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.botoes{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.bnt{
+  border: none;
+  border-radius: 8px;
+  padding: 14px 28px;
+  font-size: 1.1rem;
+  color: yellow;
+  background-color: black;
+  cursor: pointer;
+}
+
+.bnt:hover{opacity: 0.85;}
+
